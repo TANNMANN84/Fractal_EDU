@@ -9,7 +9,7 @@ import AnalysisPage from './exam-analysis/AnalysisPage';
 const App: React.FC = () => {
   return (
     <AppProvider>
-      <BrowserRouter basename="/Fractal-EDU-Student-Profiler">
+      <BrowserRouter basename="/Fractal-EDU">
         <Routes>
           <Route path="/" element={<RootLayout />}>
             <Route index element={<ProfilerPage />} />
