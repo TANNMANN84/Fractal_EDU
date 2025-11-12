@@ -1,0 +1,165 @@
+{
+  "id": "prebuilt-separations-2025",
+  "name": "Diagnostic Check In - Separations 2025",
+  "yearGroup": 7, 
+  "questions": [
+    
+    {
+      "id": "q1-spell",
+      "prompt": "Evaporation",
+      "type": "Spelling",
+      "maxMarks": 1,
+      "correctAnswer": "Evaporation" 
+    },
+    {
+      "id": "q2-spell",
+      "prompt": "Solvent",
+      "type": "Spelling",
+      "maxMarks": 1,
+      "correctAnswer": "Solvent"
+    },
+    {
+      "id": "q3-spell",
+      "prompt": "Mixture",
+      "type": "Spelling",
+      "maxMarks": 1,
+      "correctAnswer": "Mixture"
+    },
+    {
+      "id": "q4-spell",
+      "prompt": "Distillation",
+      "type": "Spelling",
+      "maxMarks": 1,
+      "correctAnswer": "Distillation"
+    },
+    {
+      "id": "q5-spell",
+      "prompt": "Chromatography",
+      "type": "Spelling",
+      "maxMarks": 1,
+      "correctAnswer": "Chromatography"
+    },
+    {
+      "id": "q6-match-1",
+      "prompt": "Matching: Solution",
+      "type": "Matching",
+      "maxMarks": 1,
+      "correctAnswer": "Correct"
+    },
+    {
+      "id": "q6-match-2",
+      "prompt": "Matching: Decant",
+      "type": "Matching",
+      "maxMarks": 1,
+      "correctAnswer": "Correct"
+    },
+    {
+      "id": "q6-match-3",
+      "prompt": "Matching: Saturated",
+      "type": "Matching",
+      "maxMarks": 1,
+      "correctAnswer": "Correct"
+    },
+    {
+      "id": "q7-written",
+      "prompt": "Define: Mixture",
+      "type": "Written",
+      "maxMarks": 2
+    },
+    {
+      "id": "q8-written",
+      "prompt": "Define: Solute",
+      "type": "Written",
+      "maxMarks": 2
+    },
+    
+    {
+      "id": "q9-mcq",
+      "prompt": "What is a pure substance?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "A" 
+    },
+    {
+      "id": "q10-mcq",
+      "prompt": "Which of the following is an example of a mixture?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "C" 
+    },
+    {
+      "id": "q11-mcq",
+      "prompt": "In a saltwater solution, what is the solvent?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "B" 
+    },
+    {
+      "id": "q12-mcq",
+      "prompt": "Which separation technique is best used to separate sand from water?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "C" 
+    },
+    {
+      "id": "q13-mcq",
+      "prompt": "When sugar dissolves in tea, the sugar is the:",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "C" 
+    },
+    {
+      "id": "q14-mcq",
+      "prompt": "Which method would be most suitable for separating the different coloured dyes in black ink?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "D" 
+    },
+    {
+      "id": "q15-mcq",
+      "prompt": "During filtration, what is the name given to the solid material left on the filter paper?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "C" 
+    },
+    {
+      "id": "q16-mcq",
+      "prompt": "How can you separate iron filings from a mixture of iron filings and sand?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "B" 
+    },
+    {
+      "id": "q17-mcq",
+      "prompt": "Which of these processes involves a liquid turning into a gas to separate it from a solid?",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "B" 
+    },
+    {
+      "id": "q18-mcq",
+      "prompt": "If a substance is described as 'insoluble' in water, it means:",
+      "type": "MCQ",
+      "maxMarks": 1,
+      "options": ["A","B","C","D"],
+      "correctAnswer": "B"
+    }
+    ,
+    {
+      "id": "q19-marks",
+      "prompt": "Label the distillation diagram (Total Score)", 
+      "type": "Marks",
+      "maxMarks": 3 
+    }
+  ],
+  "results": [] 
+}

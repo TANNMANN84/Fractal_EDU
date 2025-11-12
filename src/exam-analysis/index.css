@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #111827; /* bg-gray-900 */
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 50; /* Ensure tooltip is on top */
+    bottom: 125%;
+    left: 50%;
+    margin-left: -125px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+    line-height: 1.4;
+    border: 1px solid #374151; /* border-gray-700 */
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #111827 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.question-level-1 { margin-left: 0; }
+.question-level-2 { margin-left: 1.5rem; }
+.question-level-3 { margin-left: 3rem; }
+select[multiple] {
+    height: 8rem; /* Give multi-selects a visible height */
+}
+.details-summary::-webkit-details-marker {
+    display:none;
+}
+details[open] > summary .chevron {
+    transform: rotate(90deg);
+}
+
+.sortable-header {
+    cursor: pointer;
+}
+.sortable-header:hover {
+    color: #a5b4fc; /* indigo-300 */
+}
+.sort-asc::after {
+    content: ' ▲';
+    font-size: 0.8em;
+}
+.sort-desc::after {
+    content: ' ▼';
+    font-size: 0.8em;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Student Profiler",
+  "description": "A local-only application for managing student profiles, observations, and educational plans. This tool helps educators track student progress and needs in a single, persistent interface.",
+  "requestFramePermissions": []
+}
